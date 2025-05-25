@@ -10,15 +10,15 @@ basic:
         - 1920
     pages:
         - /
-        - contact-us
-        - apply-for-business-loan
-        - blog
-        - takeouts-from-april-rba-interest-rate-decision
+        - /contact-us
+        - /apply-for-business-loan
+        - /blog
+        - /takeouts-from-april-rba-interest-rate-decision
     monitoring:
-        days: {  }
-        type: ''
-        schedule_time: '12:30 AM'
-        schedule_time_zone: Europe/London
+        days: [Mon]
+        type: weekly
+        schedule_time: '06:30 AM'
+        schedule_time_zone: Australia/Brisbane
         compare_with: last-production
         compare_with_fresh: production
 advanced:
